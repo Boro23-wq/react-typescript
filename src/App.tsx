@@ -7,6 +7,7 @@ import Heading from './components/Heading';
 import Button from './components/Button';
 import Input from './components/Input';
 import Container from './components/Container';
+import Counter from './components/Counter';
 
 const handleOnClick = () => {
     console.log('I am clicked!');
@@ -20,6 +21,7 @@ const App: React.FC = () => {
             <Button onClick={handleOnClick}>Just a Button!</Button>
             <Input />
             <Container />
+            <Counter />
         </>
     );
 };
